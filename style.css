@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Norse Bold";
+    src: url(images/Norse-Bold\ \(1\).otf);
+}
+body{
+    margin: 0;
+    padding:0;
+}
+.content{
+    min-height: 100vh;
+    display: flex;
+}
+.image-section{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    background-image: url(/images/leaf-image.jpg);
+    background-size: cover;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Norse Bold';
+    height: 10rem;
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.banner img{
+    height: 8rem;
+}
+
+.text-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 5;
+    background-color: whitesmoke;
+}
+
+.text-section p:first-child{
+    margin-top: 0;
+}
+
+.text-section > p {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-left: 4vw;
+    margin-bottom: 0;
+    width: 80%;
+
+}
+.input-section{
+    padding: 3vh 1vw 4vh 4vw;
+    background-color: white;
+    box-shadow: 0 5px 5px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.input-section label{
+    display: block;
+}
+.input-section > div {
+    gap: 10rem;
+}
+.section{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+#submit-button{
+    margin-top: 1rem;
+    padding: .75rem 3rem;
+    margin-left: 4vw;
+}
+
+p.log-in{
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+.input-section  input {
+    width: 100%;
+    border: 1px solid #e5e7eb;
+    padding: .6vh 1vw;
+    border-radius: .3vw;
+    font-size: 1rem;
+}
+
+.input-section label {
+    font-size: 1rem;
+    margin-bottom: 0.2vh;
+}
